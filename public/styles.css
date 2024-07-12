@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+    color: green;
+    font-family: Arial, sans-serif;
+    margin: 20px auto; /* Középre igazítás margókkal */
+    padding: 20px;
+    max-width: 600px; /* Maximális szélesség beállítása */
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px; 
+}
+
+input[type="text"],
+input[type="number"] {
+    width: calc(100% - 20px); 
+    padding: 6px; 
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    display: block; /* Blokk szintű elemként kezeljük, hogy középre kerüljenek */
+    margin: 0 auto; /* Középre igazítás margókkal */
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.hidden {
+    display: none;
+}

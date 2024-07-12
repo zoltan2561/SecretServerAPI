@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Server</title>
+	 <link rel="stylesheet" href="styles.css"> <!-- CSS fájl hivatkozása -->
+</head>
+<body>
+    <h1>Create a Secret</h1>
+    <label for="secretText">Secret Text:</label>
+    <input type="text" id="secretText" name="secretText">
+    <label for="expireAfterViews">Expire After Views:</label>
+    <input type="number" id="expireAfterViews" name="expireAfterViews">
+    <label for="expireAfter">Expire After (minutes):</label>
+    <input type="number" id="expireAfter" name="expireAfter">
+    <button id="createSecretButton">Create Secret</button>
+    
+    <div id="secretUrlContainer" class="hidden">
+        <h2>Share this URL:</h2>
+        <a id="secretUrl" href=""></a>
+    </div>
+
+    <h1>Get a Secret</h1>
+    <label for="secretUrlInput">Secret URL:</label>
+    <input type="text" id="secretUrlInput" name="secretUrlInput">
+    <button id="getSecretButton">Get Secret</button>
+
+    <div id="retrievedSecretContainer">
+        <h2>Retrieved Secret:</h2>
+        <p id="retrievedSecret"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
