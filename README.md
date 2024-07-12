@@ -9,7 +9,7 @@ Framework: Express
 
 Database:  Sequelize (MySQL)
 
-Api Test:  Postman
+Api Test:  Postman (find the collection file in the repo)
 
 Host:      Own UbuntuVM/Apache/2.4.41
 
@@ -25,4 +25,4 @@ The Secret Server API allows users to:
 
 Currently, the application does not encrypt stored text because it was not a requirement based on the specifications. This means that while encryption could enhance security, the current implementation does not include this feature
 
-Thanks yor for reading if u have any question pleas feel free to contact me : pappzoltan6969@gmail.com
+Thank you for reading if u have any question please feel free to contact me : pappzoltan6969@gmail.com

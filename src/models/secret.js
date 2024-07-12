@@ -1,5 +1,5 @@
-const { DataTypes } = require('sequelize');
-const sequelize = require('../config/database');
+const { DataTypes } = require('sequelize');//sql
+const sequelize = require('../config/database');//kapcsolat 
 
 const Secret = sequelize.define('secret', {
   hash: {
