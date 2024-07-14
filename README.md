@@ -25,4 +25,8 @@ The Secret Server API allows users to:
 
 Currently, the application does not encrypt stored text because it was not a requirement based on the specifications. This means that while encryption could enhance security, the current implementation does not include this feature
 
+DB modell:
+![alt text](image-1.png)
+
+
 Thank you for reading if u have any question please feel free to contact me : pappzoltan6969@gmail.com
